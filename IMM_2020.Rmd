@@ -1,0 +1,42 @@
+---
+title: "Indice de marginación a nivel municipal"
+output: 
+  flexdashboard::flex_dashboard:
+    output_dir: docs
+    orientation: columns
+    vertical_layout: fill
+    self_contained: yes
+    mode: selfcontained
+    social: [ "twitter", "facebook", "linkedin" ]
+    source_code:  https://github.com/IndiceMx/IMx_Mapa
+    theme: 
+      version: 4
+      bg: "#FFFFFF"
+      fg: "#FDF7F7" 
+      primary: "#13322B"
+      navbar-bg: "#086953"
+      base_font: 
+        google: Prompt
+      heading_font:
+        google: Sen
+      code_font:
+        google: 
+          family: Montserrat
+          local: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, cache=TRUE,
+                      class.source = "fold-hide")
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+options(encoding = "UTF8")
+```
+
+```{r, eval = FALSE}
+readRDS("Graficos/leaflet_municipios.RDS")
+```
+
+<!--html_preserve-->
+<iframe src = "https://indicemx.github.io/IMM_2020_Leaflet/index.html" position= "absolute"; top="0"; left="0"; bottom="0"; right="0"; width="100%"; height="100%"; border="none"; margin="0"; padding="0"; overflow="hidden";>"</iframe>
+<!--/html_preserve-->
+

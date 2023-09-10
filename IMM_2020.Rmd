@@ -2,6 +2,7 @@
 title: "Índice de marginación a nivel municipal"
 output: 
   flexdashboard::flex_dashboard:
+    logo: Graficos/conapo_logo.png
     output_dir: docs
     orientation: columns
     vertical_layout: fill
@@ -24,7 +25,12 @@ output:
           family: Montserrat
           local: false
 ---
-
+<style>
+img{
+     max-width:48px;
+     max-height:48px;
+}
+</style>
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, cache=TRUE,
                       class.source = "fold-hide")

@@ -1,5 +1,5 @@
 ---
-title: "Indice de marginación a nivel estatal"
+title: "Índice de marginación a nivel estatal"
 output: 
   flexdashboard::flex_dashboard:
     logo: Graficos/conapo_logo.png
@@ -9,7 +9,7 @@ output:
     self_contained: yes
     mode: selfcontained
     social: [ "twitter", "facebook", "linkedin" ]
-    source_code: https://github.com/IndiceMx/IME_Mapa.git
+    source_code: https://github.com/IndiceMx/IMx_Mapa
     theme: 
       version: 4
       bg: "#FFFFFF"

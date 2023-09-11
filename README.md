@@ -1,10 +1,12 @@
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/r-lib/usethis/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/r-lib/usethis/actions/workflows/R-CMD-check.yaml)
+
 <!-- badges: end -->
 
+```{=html}
 <style type="text/css">
 body {
    text-align: justify; 
@@ -25,13 +27,12 @@ h3 {
   font-size: 25px
 }
 </style>
-
+```
 ### Mapas dinámicos del índice de marginación
 
 ### Nivel estatal
 
-Visualizador del mapa dinámico del índice de marginación a nivel
-estatal.
+Visualizador del mapa dinámico del índice de marginación a nivel estatal.
 
 **Enlace:** <https://indicemx.github.io/IMx_Mapa/IME_2020.html>
 
@@ -39,8 +40,7 @@ estatal.
 
 ### Nivel municipal
 
-Visualizador del mapa dinámico del índice de marginación a nivel
-municipal.
+Visualizador del mapa dinámico del índice de marginación a nivel municipal.
 
 **Enlace:** <https://indicemx.github.io/IMx_Mapa/IMM_2020.html>
 

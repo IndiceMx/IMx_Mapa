@@ -5,26 +5,6 @@
 [![R-CMD-check](https://github.com/r-lib/usethis/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/r-lib/usethis/actions/workflows/R-CMD-check.yaml)
 
 <!-- badges: end -->
-<style type="text/css">
-body {
-   text-align: justify; 
-   font-style: normal;
-   font-family: "Montserrat";
-   font-size: 16px;
-}
-h1 {
-  color: #13322B;
-  font-size: 30px
-}
-h2 {
-  color: #13322B;
-  font-size: 28px
-}
-h3 {
-  color: #245A4E;
-  font-size: 25px
-}
-</style>
 
 ### Mapas dinámicos del índice de marginación
 

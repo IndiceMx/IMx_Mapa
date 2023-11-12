@@ -1,0 +1,64 @@
+---
+title: "Índice de marginación a nivel municipal"
+output: 
+  flexdashboard::flex_dashboard:
+    logo: logo/conapo_logo.png
+    output_dir: docs
+    orientation: columns
+    vertical_layout: fill
+    self_contained: yes
+    mode: selfcontained
+    social: [ "twitter", "facebook", "linkedin" ]
+    source_code: https://github.com/IndiceMx/IMx_Mapa
+    theme: 
+      version: 4
+      bg: "#FFFFFF"
+      fg: "#FDF7F7" 
+      primary: "#13322B"
+      navbar-bg: "#086953"
+      base_font: 
+        google: Prompt
+      heading_font:
+        google: Sen
+      code_font:
+        google: 
+          family: Montserrat
+          local: false
+---
+<style>
+img{
+     max-width:48px;
+     max-height:48px;
+}
+</style>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, cache=TRUE,
+                      class.source = "fold-hide")
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+options(encoding = "UTF8")
+```
+
+
+
+2020 {data-icon="fa-signal"}
+=======================================================================
+
+<!--html_preserve-->
+<iframe src = "https://indicemx.github.io/IMx_Mapa/IMM_2020.html" position= "absolute"; top="0"; left="0"; bottom="0"; right="0"; width="100%"; height="100%"; border="none"; margin="0"; padding="0";  frameborder="0"; overflow="hidden"; display= "block";  min-height= "100vh";>"</iframe>
+<!--/html_preserve-->
+
+
+2015 {data-icon="fa-signal"}
+=======================================================================
+
+<!--html_preserve-->
+<iframe src = "https://indicemx.github.io/IMx_Mapa/IMM_2015.html" position= "absolute"; top="0"; left="0"; bottom="0"; right="0"; width="100%"; height="100%"; border="none"; margin="0"; padding="0";  frameborder="0"; overflow="hidden"; display= "block";  min-height= "100vh";>"</iframe>
+<!--/html_preserve-->
+
+2010 {data-icon="fa-signal"}
+=======================================================================
+
+<!--html_preserve-->
+<iframe src = "https://indicemx.github.io/IMx_Mapa/IMM_2010.html" position= "absolute"; top="0"; left="0"; bottom="0"; right="0"; width="100%"; height="100%"; border="none"; margin="0"; padding="0";  frameborder="0"; overflow="hidden"; display= "block";  min-height= "100vh";>"</iframe>
+<!--/html_preserve-->
+

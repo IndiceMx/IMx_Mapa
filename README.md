@@ -1,25 +1,65 @@
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/r-lib/usethis/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/r-lib/usethis/actions/workflows/R-CMD-check.yaml)
 
 <!-- badges: end -->
+<style type="text/css">
+body {
+   text-align: justify; 
+   font-style: normal;
+   font-family: "Montserrat";
+   font-size: 16px;
+}
+h1 {
+  color: #13322B;
+  font-size: 30px
+}
+h2 {
+  color: #13322B;
+  font-size: 28px
+}
+h3 {
+  color: #245A4E;
+  font-size: 25px
+}
+</style>
 
 ### Mapas dinámicos del índice de marginación
 
+El visualizador interactivo del Índice de Marginación en México
+elaborado por el Consejo Nacional de Población `CONAPO`. Este mapa
+dinámico proporciona una perspectiva detallada de la evolución del
+índice a nivel estatal y municipal en los años 2010, 2015 y 2020.
+Utilizando la paquetería 📦 `leaflet`, que nos permite explorar de
+manera intuitiva y visual la distribución de la marginación a lo largo
+del tiempo.
+
 ### Nivel estatal
 
-Visualizador del mapa dinámico del índice de marginación a nivel estatal.
+Visualizador del mapa dinámico del índice de marginación a nivel
+estatal.
 
-**Enlace:** <https://indicemx.github.io/IMx_Mapa/IME_2020.html>
+**Enlace:** <https://indicemx.github.io/IMx_Mapa/IME_2010-2020.html>
 
-![](https://github.com/IndiceMx/IMx_Mapa/blob/main/img/img01.png?raw=true)
+<html>
+<body>
+<a href = "https://indicemx.github.io/IMx_Mapa/IME_2010-2020.html" target="_blank">
+<img src="https://github.com/IndiceMx/IMx_Mapa/blob/main/img/img01.png?raw=true"></a>
+</body>
+</html>
 
 ### Nivel municipal
 
-Visualizador del mapa dinámico del índice de marginación a nivel municipal.
+Visualizador del mapa dinámico del índice de marginación a nivel
+municipal.
 
-**Enlace:** <https://indicemx.github.io/IMx_Mapa/IMM_2020.html>
+**Enlace:** <https://indicemx.github.io/IMx_Mapa/IMM_2010-2020.html>
 
-![](https://github.com/IndiceMx/IMx_Mapa/blob/main/img/img02.png?raw=true)
+<html>
+<body>
+<a href = "https://indicemx.github.io/IMx_Mapa/IMM_2010-2020.html" target="_blank">
+<img src="https://github.com/IndiceMx/IMx_Mapa/blob/main/img/img02.png?raw=true"></a>
+</body>
+</html>
